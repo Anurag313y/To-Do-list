@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 style="font-size:3rem; color: white;">To-Do List</h1>
+        </div>
+       
+      
+    </div>
+    <div class="help">
+        <div class="help1">
+            <h2 style="color: #715b74">Click on "Add" button or just press enter button to add item to your list.</h2>
+        </div>
+        <div class="help2">
+            <h2 style="color: #715b74;">Click on "Done" button to mark item as done.</h2>
+        </div>
+        <div class="help3">
+            <h2 style="color: #715b74;">Click on "Remove" button to remove item from the list.</h2>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="newitem">
+            <input type="text" id="myInput"  placeholder="add new item..." style="font-size: 1.3rem;" >
+            <button id="addbtn" onclick="newElement()" style="color: rgb(218, 214, 214);font-size: 1.3rem;" >Add</button>
+        </div>
+    </div>
+
+    <div class="list">
+        <div class="listItems col-12">
+            <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+            </ul>
+        </div>
+    </div>
+   
+   <script src="script.js"></script>
+</body>
+</html>
